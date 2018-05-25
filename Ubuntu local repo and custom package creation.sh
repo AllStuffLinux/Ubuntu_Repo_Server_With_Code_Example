@@ -12,6 +12,9 @@
 #
 # Added some checks so we make sure we do not have to recreate the repository file, repository location, and do not install the package again in the end
 # 5/23/2018 Mark Jonker
+#
+# Checks needed for .deb version
+
 
 if ! [ $(id -u) = 0 ];
 then
