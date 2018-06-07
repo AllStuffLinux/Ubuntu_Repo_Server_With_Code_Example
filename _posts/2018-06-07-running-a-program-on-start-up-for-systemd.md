@@ -33,14 +33,14 @@ That file is clear enough. It specifies the working directory to run your progra
 Put that file into /etc/systemd/system/propanel.service. Make sure it is readable/writeable/executable by root:
 
 [simterm]
-$ sudo cp   propanel.service  /etc/systemd/system/
+$ sudo cp propanel.service /etc/systemd/system/
 $ sudo chmod u+rwx /etc/systemd/system/propanel.service
 [/simterm]
 
 Now enable the service with a systemd command: 
 
 [simterm]
-$ sudo systemctl enable  propanel
+$ sudo systemctl enable propanel
 [/simterm]
 
 And it will be run at boot time.
@@ -48,14 +48,14 @@ And it will be run at boot time.
 You can start it without rebooting with: 
 
 [simterm]
-sudo systemctl start   propanel
+sudo systemctl start propanel
 [/simterm]
 
 If that fails for some reason you will get a nice error message. And usually you have to look in the logs to see what systemd did not like about your service file "cat /var/log/syslog"
 You can stop your service with: 
 
 [simterm]
-sudo systemctl stop   propanel
+sudo systemctl stop propanel
 [/simterm]
 
 There is much on the net written about this. For example: http://unix.stackexchange.com/questions ... or-systemd
