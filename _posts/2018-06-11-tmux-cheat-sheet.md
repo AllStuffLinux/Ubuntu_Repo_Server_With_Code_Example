@@ -9,21 +9,9 @@ permalink: >
 published: true
 post_date: 2018-06-11 12:45:45
 ---
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-  <head>
-    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
-    <title>dayid's tmux & screen cheat-sheet</title>
-    <link rel="stylesheet" type="text/css" href="/support/light.css">
-  </head>
   <body>
     <h1>tmux &amp; screen cheat-sheet</h1>
-    <div id="content">
-    <!-- Begin Content Here /-->
-    <!-- Originally composed on April 29th, 2009 at 14:35 /-->
-    <!-- Original URL: http://www.dayid.org/os/notes/tm.html /-->
-    <!-- Current URL: http://maleah.dayid.org/comp/tm.html /-->
-      <h1>screen and tmux</h1>
+         <h1>screen and tmux</h1>
       <p>A comparison of the features (or more-so just a table of notes for accessing some of those features) for <a href="http://www.gnu.org/software/screen/" target="_blank">GNU screen</a> and BSD-licensed <a href="https://tmux.github.io/" target="_blank">tmux</a>.</p>
       <table border="1">
         <tr>
@@ -162,12 +150,6 @@ post_date: 2018-06-11 12:45:45
             <td>                                                                    </td>
         </tr>
       </table>
-    </div>
-    <div id='footer'>
-      <span>Last Modified: 2017/01/11<br>
-      URL: <a href="http://maleah.dayid.org/comp/tm.html">http://maleah.dayid.org/comp/tm.html</a><br>
-      <a href="http://validator.w3.org/check?uri=referer" title="w3.org validator"><img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
-      <a href="http://www.vim.org" title="vim.org"><img src="/icons/vi.gif" alt="Written in the vi editor" height="31" width="88"></a></span>
     </div>
   </body>
 </html>
